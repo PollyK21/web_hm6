@@ -3,7 +3,7 @@ import sqlite3
 
 def query(file_number):
     # читаємо файл зі скриптом для створення БД
-    file_name = f'query_{file_number}.sql'
+    file_name = f'query/query_{file_number}.sql'
     with open(file_name, 'r') as f:
         sql = f.read()
 
